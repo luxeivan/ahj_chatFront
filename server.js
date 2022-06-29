@@ -1,11 +1,9 @@
 const WS = require('ws');
 const http = require('http');
 const server = http.createServer((req, res) => {
-  console.log(req, res);
   res.end('response');
 });
 
-console.log(server);
 let openUsers = [];
 
 const wss = new WS.Server( {server} );
