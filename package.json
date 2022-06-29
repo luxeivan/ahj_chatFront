@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "node server.js && live-server --port=80 dist",
+    "start": "live-server --port=80 dist && node server.js",
     "build": "webpack --config webpack.prod.js",
     "lint": "eslint .",
     "test": "jest",
