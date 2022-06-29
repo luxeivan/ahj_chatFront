@@ -1,6 +1,7 @@
 doc
 node_modules
 frontend/node_modules
+packege-lock.json
 
 # Logs
 logs
