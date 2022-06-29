@@ -6,7 +6,7 @@ module.exports = {
   target: 'web',
   output: {
     path: path.resolve(__dirname, 'dist'),
-    publicPath: '/ahj_collapse/',
+    publicPath: '/ahj_chatFront/',
   },
   module: {
     rules: [
